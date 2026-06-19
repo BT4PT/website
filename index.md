@@ -13,7 +13,7 @@ work, study, and do business across borders).
 A prerequisite for this revolution in European transport is the development of a standard to integrate electronic 
 ticketing for all public transport modes in all countries of Europe, and beyond.
 
-The goal of this project is to develop and implement a harmonized standard for the format of ticketing across Europe,
+The goal of this project is to develop and implement a harmonised standard for the format of ticketing across Europe,
 in line with the objectives of current and upcoming EU legislation.
 The project will deliver:
 - A **CEN Technical Specification (CEN/TS)** for the ticket format.
