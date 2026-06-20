@@ -31,9 +31,7 @@ ticketed, such that we can create a unifying standard covering all possible use-
 We have prepared a questionaire covering the information we need to perfect our work. If you work for a public transport
 operator, or any other company involved in transport ticketing, we'd love to hear from you by filling out our questionaire.
 
-[QUESTIONNAIRE TO BE COMPLETED]
-
-Please send the completed document to [questionnaire@bt4pt.eu](mailto:questionnaire@bt4pt.eu).
+You can download the questionnaire as a PDF to fill out [here](/questionnaire.pdf). Please send the completed document to [questionnaire@bt4pt.eu](mailto:questionnaire@bt4pt.eu).
 
 # The work so far
 
