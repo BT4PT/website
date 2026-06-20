@@ -36,7 +36,7 @@ You can download the questionnaire as a PDF to fill out [here](/questionnaire.pd
 # The work so far
 
 We have so far completed a first draft of the data layout of the ticket format, specified in ASN.1.
-If you are technically inclined, you can browse our ASN.1 specifications and comment on them [on GitHub](https://github.com/consilium-gcv/BT4PT-ASN1).
+If you are technically inclined, you can browse our ASN.1 specifications and comment on them [on GitHub](https://github.com/BT4PT/ASN1).
 
 An interactive render is also available:
 
