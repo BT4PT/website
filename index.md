@@ -40,10 +40,11 @@ If you are technically inclined, you can browse our ASN.1 specifications and com
 
 An interactive render is also available:
 
-- [MultiModalTicketData](https://asn1.bt4pt.eu/oid/iso/identified-organization/dod/internet/private/enterprise/uic/fcb/modules/mmtd/v1/0/) defining the encoding of a transport product.
-- [BarcodeHeader](https://asn1.bt4pt.eu/oid/iso/identified-organization/dod/internet/private/enterprise/uic/fcb/modules/header/v3/0/) defining the security envelope used to protect ticket contents.
-- [DynamicContentData](https://asn1.bt4pt.eu/oid/iso/identified-organization/dod/internet/private/enterprise/uic/fcb/modules/dcd/v2/0/) defining elements for a rotating (dynamic) ticket.
-- [FixedPointData](https://asn1.bt4pt.eu/oid/iso/identified-organization/dod/internet/private/enterprise/uic/fcb/modules/fpd/v1/0/) defining elements for identifying locations in a transport context, such as stations, vehicles, or seats.
+- [MultiModalTicketData](https://asn1.bt4pt.eu/oid/iso/identified-organization/dod/internet/private/enterprise/uic/fcb/bt4pt/mmtd/v1/0/) defining the encoding of a transport product.
+- [BarcodeHeader](https://asn1.bt4pt.eu/oid/iso/identified-organization/dod/internet/private/enterprise/uic/fcb/bt4pt/header/v1/0/) defining the security envelope used to protect ticket contents.
+- [Certificates](https://asn1.bt4pt.eu/oid/iso/identified-organization/dod/internet/private/enterprise/uic/fcb/bt4pt/certificates/v1/0/) defining the PKI certificates used in BT4PT.
+- [DynamicContentData](https://asn1.bt4pt.eu/oid/iso/identified-organization/dod/internet/private/enterprise/uic/fcb/bt4pt/dcd/v1/0/) defining elements for a rotating (dynamic) ticket.
+- [FixedPointData](https://asn1.bt4pt.eu/oid/iso/identified-organization/dod/internet/private/enterprise/uic/fcb/bt4pt/fpd/v1/0/) defining elements for identifying locations in a transport context, such as stations, vehicles, or seats.
 
 # Who's involved?
 
