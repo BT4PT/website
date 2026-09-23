@@ -52,7 +52,30 @@ Hover over the below map to discover the countries represented on the BT4PT proj
 Is your country not represented? If you work for a public transport company there, get in touch; we'd love to hear what you have to add!
 
 <div class="d-grid justify-content-center">
-<div id="regions_div" style="width: 900px; height: 500px;"></div>
+  <div id="regions_div" style="width: 900px; height: 500px;"></div>
+  <div class="d-flex justify-content-center gap-4 mt-2">
+      <div class="d-flex align-items-center gap-2">
+        <span style="
+          display: inline-block;
+          width: 1rem;
+          height: 1rem;
+          background: #004494;
+          border-radius: 0.2rem;
+        "></span>
+        <span>Project team</span>
+      </div>
+
+      <div class="d-flex align-items-center gap-2">
+        <span style="
+          display: inline-block;
+          width: 1rem;
+          height: 1rem;
+          background: #FFBE5C;
+          border-radius: 0.2rem;
+        "></span>
+        <span>Input provided</span>
+      </div>
+    </div>
 </div>
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <script type="text/javascript">
@@ -63,22 +86,38 @@ Is your country not represented? If you work for a public transport company ther
 
   function drawRegionsMap() {
     var data = google.visualization.arrayToDataTable([
-      ['Country'],
-      ['Germany'],
-      ['Netherlands'],
-      ['Switzerland'],
-      ['Norway'],
-      ['United Kingdom'],
-      ['Austria'],
-      ['France'],
-      ['Slovenia'],
-      ['Belgium'],
+      [
+        'Country',
+        'Involvement', 
+        { type: 'string', role: 'tooltip' }
+      ],
+      [{ v: 'DE', f: 'Germany' }, 1, 'Deutsche Bahn, VDV, Max-Planck-Institut für Informatik'],
+      [{ v: 'NL', f: 'The Netherlands' }, 1, 'Fairsfair'],
+      [{ v: 'CH', f: 'Switzerland' }, 1, 'SBB, Fairtiq'],
+      [{ v: 'NO', f: 'Norway' }, 1, 'Entur, Jernbanedirektoratet'],
+      [{ v: 'GB', f: 'Great Britain' }, 1, 'Rail Delivery Group'],
+      [{ v: 'AT', f: 'Austria' }, 1, 'ÖBB'],
+      [{ v: 'FR', f: 'France' }, 1, 'SNCF, Nextendis'],
+      [{ v: 'SI', f: 'Slovenia' }, 1, 'Društvo za elektronsko in računalniško pismenost (DERP)'],
+      [{ v: 'BE', f: 'Belgium' }, 1, 'UIC'],
+      [{ v: 'ES', f: 'Spain' }, 2, 'Madrid'],
+      [{ v: 'DK', f: 'Denmark' }, 2, 'DSB, Greater Copenhagen'],
+      [{ v: 'IT', f: 'Italy' }, 2, 'Como, Milan'],
+      [{ v: 'SE', f: 'Sweden' }, 2, 'Stockholm Region'],
+      [{ v: 'FI', f: 'Finland' }, 2, 'Helsinki'],
     ]);
 
     var options = {
-        defaultColor: "004494",
         datalessRegionColor: "E3E3E3",
-        region: "150"
+        region: "150",
+        colorAxis: {
+          values: [1, 2],
+          colors: [
+            '#004494',
+            '#FFBE5C',
+          ]
+        },
+        legend: 'none'
     };
 
     var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
